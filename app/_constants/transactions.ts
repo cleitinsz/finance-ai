@@ -6,7 +6,7 @@ import {
 
 export const TRANSACTION_CATEGORY_LABELS = {
   EDUCATION: "Educação",
-  ENTERTAIMENT: "Entretenimento",
+  ENTERTAINMENT: "Entretenimento",
   FOOD: "Alimentação",
   HEALTH: "Saúde",
   HOUSING: "Moradia",
@@ -77,8 +77,8 @@ export const TRANSACTION_CATEGORY_OPTIONS = [
     label: TRANSACTION_CATEGORY_LABELS[TransactionCategory.EDUCATION],
   },
   {
-    value: TransactionCategory.ENTERTAIMENT,
-    label: TRANSACTION_CATEGORY_LABELS[TransactionCategory.ENTERTAIMENT],
+    value: TransactionCategory.ENTERTAINMENT,
+    label: TRANSACTION_CATEGORY_LABELS[TransactionCategory.ENTERTAINMENT],
   },
   {
     value: TransactionCategory.FOOD,
